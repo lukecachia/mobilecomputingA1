@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Sample App</title>
+    <title>IDentify Me!</title>
 
     <meta charset="UTF-8">
+
+
+    //Enables responsiveness of the page
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    //The jQuery Mobile CSS theme file (optional, if you are overriding the default theme)
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    //The jQuery core JavaScript file
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    //The jQuery Mobile core JavaScript file
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>   
+
+    //JQ functions
+    <script src="js/jq.js"></script>
 
 
 </head>
 
 <body>
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">IDentify Me</a>
+
+    <div id="indexPage" data-role="page">
+        <div data-role="header">
+             <a href="#nav-panel" data-icon="bars" data-iconpos="notext" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button"></a>
+            <h1>IDentify Me</h1>
         </div>
-        <ul class="nav navbar-nav">
-            <li><a href="goals.html">Goals</a></li>
-            <li><a href="#">Mock Screens</a></li>
-            <li><a href="#">Comparisons</a></li>
-            <li><a href="#">Challenges</a></li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">User Stories
-                    <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Tom</a></li>
-                    <li><a href="#">Sarah</a></li>
-                    <li><a href="#">Paul</a></li>
-                </ul>
-            </li>
-        </ul>
+
+        <div id="indexBody" data-role="content">
+            <p>
+                <h1><b>Mobile Computing</b></h1>
+                    <h2>Assignment summary</h2>
+                    <br>
+                    This is a sample application which demonstrates the main attributes of the application
+                    that I will develop for Assignment 2.
+                    <br>
+                    <br>
+                    The application in mind will have the following details:
+                    <!--Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,-->
+                    <!--graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century-->
+                    <!--who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a-->
+                    <!--type specimen book. It usually begins with:-->
+                </p>
+        </div>
+
+
+        <div data-role="footer">
+
+        </div>
     </div>
-</nav>
 
-<div id="assignment-summary" class="container-fluid">
-    <p>
-    <h1><b>Mobile Computing</b></h1>
-        <h2>Assignment summary</h2>
-        <br>
-        This is a sample application which demonstrates the main attributes of the application
-        that I will develop for Assignment 2.
-        <br>
-        <br>
-        The application in mind will have the following details:
-        <!--Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,-->
-        <!--graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century-->
-        <!--who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a-->
-        <!--type specimen book. It usually begins with:-->
-    </p>
+    <!--goals page-->
 
-</div>
+    <div id="goalsPage" data-role="page">
+        <div data-role="header">
+            <a href="#nav-panel" data-icon="bars" data-iconpos="notext" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button"></a>
+            <h1>IDentify Me</h1>
+        </div>
 
+        <div id="goalBody" data-role="content">
+            <p>
+                <h2>Goals</h2>
+                Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century
+                who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+                type specimen book. It usually begins with:
+            </p>
 
+        </div>
 
+        <div data-role="footer">
+            
+        </div>
+    </div>
 
 
 </body>
