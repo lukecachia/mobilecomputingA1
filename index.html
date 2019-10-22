@@ -30,6 +30,7 @@
 
 <body>
 
+    <!--main page-->
     <div id="indexPage" data-role="page">
         <div data-role="header">
              <a href="#nav-panel" data-icon="bars" data-iconpos="notext" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button"></a>
@@ -60,7 +61,6 @@
     </div>
 
     <!--goals page-->
-
     <div id="goalsPage" data-role="page">
         <div data-role="header">
             <a href="#nav-panel" data-icon="bars" data-iconpos="notext" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button"></a>
@@ -69,17 +69,79 @@
 
         <div id="goalBody" data-role="content">
             <p>
-                <h2>Goals</h2>
-                Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century
-                who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
-                type specimen book. It usually begins with:
+                <h2>Project Goal</h2>
+                The goal of this application is to enable users to have quick access to important information in case of emergency, especially in cases were the user is unconcious.
+                <br>
+                <h3>Main Functionalities: </h3>
+                <ul>
+                    <li>Create an Account</li>
+                    <li>Create a specific QR Code containing personal details such as Name, Surname, Blood Type and Emergency contact number</li>
+                    <li>A list of First-aid procedures to be used in case of an emergency</li>
+                    <li>A list of emeregency contact numbers such as ambulence and Police which opens the dailer on the smartphone</li>
+                </ul>
+                
             </p>
 
         </div>
 
         <div data-role="footer">
             
+        </div>
+    </div>
+
+    <!--comparisions page-->
+    <div id="comparisionsPage" data-role="page">
+        <div data-role="header">
+            <a href="#nav-panel" data-icon="bars" data-iconpos="notext" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button"></a>
+            <h1>IDentify Me</h1>
+        </div>
+
+        <div id="comparisionsBody" data-role="content">
+
+            <h1>Comparisions</h1>
+            <br>
+
+            <div data-role="collapsible">
+                <h3>Road ID</h3>
+                <img src="images/roadID2.JPG" style="width:100%;">
+                <p>
+                    <h3>About Road ID</h3>
+                    Road ID is a company which sells safety braclets which contain information
+                    about the person in case of an emeregency.
+                    <br><br>
+                    This company also has an app which
+                    displays the personal details on the lock screen of a smartphone. Further to this,
+                    the app has the functionality of tracking the location and calls emergency services or relatives in case
+                    the phone is stationery for a long time. 
+                    <br><br>
+                    However, the problem with such app is that this approach has a single point of failure.
+                    If the user runs out of battery or forgets to wear the braclet the whole purpose is defeated.  
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Strava Beacon</h3>
+                <img src="images/stravaBeacon.jpg" style="width:100%;">
+                <p>
+                    <h3>About Strava Beacon</h3>
+                    Strava is one of the most popular activity tracking app and its used by many athletes
+                    both ameature and professional. 
+                    <br><br>
+                    The Strava Beacon is a feature which generates a unique URL to be shared by the user with relatives.
+                    Through the smartphone GPS, the location of the user is updated periodically. Therefore, the safety
+                    contacts can have the location of their relative in case of an emergency. 
+                    <br><br>
+                    The issue with this application is that is also depends on a smartphone. The user can leave the phone
+                    behind or end up a dead battery. This app will can have issues where there is low signal or not signal 
+                    at all. 
+                </p>
+            </div>
+
+
+        </div>
+
+        <div data-role="footer">
+
         </div>
     </div>
 

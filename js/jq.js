@@ -5,7 +5,7 @@ var panel = '<div id="nav-panel" data-role="panel" data-display="push" data-them
                         '<li class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all"><a href="#indexPage">Home</a></li>' +
                         '<li><a href="#goalsPage">Goals</a></li>' + 
                         '<li>Mock Ups</li>' + 
-                        '<li>Comparisons</li>' +
+                        '<li><a href="#comparisionsPage">Comparisons</a></li>' +
                         '<li>Challanges</li>' +
                         '<li>Personas</li>' +
                     '</ul>' +
