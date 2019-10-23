@@ -4,10 +4,11 @@ var panel = '<div id="nav-panel" data-role="panel" data-display="push" data-them
                     '<ul data-role="listview" class="ui-listview">' +
                         '<li class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all"><a href="#indexPage">Home</a></li>' +
                         '<li><a href="#goalsPage">Goals</a></li>' + 
+                        '<li><a href="#personasPage">Personas</a></li>' +
                         '<li>Mock Ups</li>' + 
-                        '<li><a href="#comparisionsPage">Comparisons</a></li>' +
+                        '<li><a href="#comparisionsPage">Critique</a></li>' +
                         '<li>Challanges</li>' +
-                        '<li>Personas</li>' +
+                        
                     '</ul>' +
                 '</div>' +
             '</div>'; 
