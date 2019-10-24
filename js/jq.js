@@ -7,7 +7,7 @@ var panel = '<div id="nav-panel" data-role="panel" data-display="push" data-them
                         '<li><a href="#personasPage">Personas</a></li>' +
                         '<li><a href="#mocksPage">Mock Ups</a></li>' + 
                         '<li><a href="#comparisionsPage">Critique</a></li>' +
-                        '<li>Challanges</li>' +
+                        '<li><a href="#technologiesPage">Technologies</a></li>' +
                         
                     '</ul>' +
                 '</div>' +
